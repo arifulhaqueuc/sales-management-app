@@ -1,0 +1,63 @@
+.heading
+{
+	display:block;
+	margin-top: 0px;
+}
+
+.roundcorner
+{
+width:499px;
+}
+
+.wrapper
+{
+	width:500px;
+	margin: 120 auto;
+}
+
+.menubox
+{
+	width:500px;
+}
+
+a { 
+	color: #00FFFF; 
+	font-weight: bold; 
+}
+
+a:hover 
+{ 
+	color: #123456; 
+	font-weight: bold;
+	text-decoration: overline;
+	border-left:inset;
+	border-right:outset;
+}
+
+.footnote
+{
+width:80%;
+height:auto;
+}
+.loginform
+{
+height:auto;
+width:80%;
+}
+.scrollbar
+{
+width:80%;
+height:auto;
+}
+.usertitle
+{
+	width:30%;
+	height:auto;
+	margin-left: 70px;
+}
+
+.clear
+{
+height:20px;
+width:80%;
+}

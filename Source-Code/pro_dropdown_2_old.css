@@ -1,0 +1,240 @@
+/*#############################################################
+Name: Dark Ritual
+Date: 2006-11-06
+Description: Tribal-style three column layout.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {color: #CC3300;}
+
+a:hover {color: #000000;}
+
+body {
+	color: #000033;
+	font: normal 60% "Lucida Sans Unicode",sans-serif;
+	margin: 10px auto;
+}
+
+p,ul {
+	padding-bottom: 1em;
+}
+
+ul {margin-left: 1.2em;}
+
+li {list-style: none;}
+.main li {list-style-image: url(img/li.gif);}
+
+h1 {font-size: 1.2em;}
+
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
+}
+blockquote p {padding: 3px 0;}
+
+h1,h2,h3 {color: #994;}
+
+/* misc */
+.clearer {clear: both;}
+.main_right .padded {padding: 6px 2px 6px 16px;}
+.main .padded {padding: 18px 24px;}
+.meta {font-size: 0.8em; color: #00FF00;}
+.left {float: left;}
+.right {float: right;}
+
+/* structure */
+.container {
+	font-size: 1.2em;
+	margin: 0 auto;
+	width: 820px;
+	border: 6px solid #222;
+}
+
+/* header */
+.header {
+	width: 100%;
+	font: normal 2.4em Verdana,sans-serif;
+}
+
+.headermenu {
+	width: 100%;
+	height: auto;
+}
+
+.headerxtra {
+	width: 30%;
+	height: auto;
+	float:right;
+	background-color: #669999;
+}
+
+.headercontent {
+	width: 100%;
+	height: auto;
+	background-color: #307D7E;
+}
+
+/* structure */
+.top {
+	background: #222;
+	color: #DDD;
+	float: left;
+	font: normal 1.4em Verdana;
+	height: 50px;
+	text-align: left;
+	width: 85px;
+}
+.subnav {
+	float: left;
+	width: 160px;
+	margin-top: 0px;
+}
+.main {
+	width: 62%;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-left: 165px;
+}
+.main_right {
+	float: right;
+	width: 23%;
+	margin-top: 0px;
+	background-color: #CCC;
+}
+
+/* sub-navigation */
+.subnav h1 {
+	background: #222;
+	color: #FFE;
+	font: bold 1.1em Verdana,sans-serif;
+	line-height: 24px;
+	padding-left: 8px;
+}
+.subnav ul {margin: 0; padding: 0;}
+.subnav li {
+	border-bottom: 1px solid #696755;
+	list-style: none;
+}
+.subnav li a {
+	background: #89866F;	
+	color: #111;
+	display: block;
+	padding: 8px 0 8px 12px;
+	width: 148px;
+	text-decoration: none;
+}
+.subnav li a:hover {
+	background: #9C997C;
+	color: #000;
+}
+
+/* footer */
+.footer {
+	background: url(img/bgfooter.gif) repeat-x;
+	color: #CCC;
+	font-size: 0.9em;
+	line-height: 39px;
+	width: 100%;
+	text-align: center;
+}
+.footer .left,.footer .right {padding: 0 16px;}
+.footer a {color: #EEE;}
+.footer a:hover {color: #FAFCB0;}
+.horizontalcssmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.horizontalcssmenu ul li{
+position: relative;
+display: inline;
+float: left;
+
+}
+
+/*Top level menu link items style*/
+.horizontalcssmenu ul li a{
+display: block;
+width: 110px; /*Width of top level menu link items*/
+padding: 2px 8px;
+border: 1px solid #202020;
+border-left-width: 0;
+text-decoration: none;
+background: url(menubg.gif) center center repeat-x;
+color: black;
+font: bold 13px Tahoma;
+}
+	
+/*Sub level menu*/
+.horizontalcssmenu ul li ul{
+left: 0;
+top: 0;
+border-top: 1px solid #202020;
+position: absolute;
+display: block;
+visibility: hidden;
+z-index: 100;
+}
+
+/*Sub level menu list items*/
+.horizontalcssmenu ul li ul li{
+display: inline;
+float: none;
+}
+
+
+/* Sub level menu links style */
+.horizontalcssmenu ul li ul li a{
+width: 160px; /*width of sub menu levels*/
+font-weight: normal;
+padding: 2px 5px;
+background: #123456;
+border-width: 0 1px 1px 1px;
+}
+
+.horizontalcssmenu ul li a:hover{
+background: url(images/menubgover1.gif) center center repeat-x;
+}
+
+.horizontalcssmenu ul li ul li a:hover{
+	background-color: #00CCFF;
+}
+
+.horizontalcssmenu .arrowdiv{
+position: absolute;
+right: 0;
+background: transparent url(images/menuarrow.gif) no-repeat center left;
+}
+
+* html p#iepara{ /*For a paragraph (if any) that immediately follows menu, add 1em top spacing between the two in IE*/
+padding-top: 1em;
+}
+	
+/* Holly Hack for IE \*/
+* html .horizontalcssmenu ul li { float: left; height: 1%; }
+* html .horizontalcssmenu ul li a { height: 1%; }
+/* End */
+.xtracontent
+{
+	width:30%;
+	background-color:#330000;
+	float:right;
+	margin-top: -250px;
+}

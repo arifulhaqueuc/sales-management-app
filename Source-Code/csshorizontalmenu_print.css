@@ -1,0 +1,340 @@
+/*#############################################################
+Name: Dark Ritual
+Date: 2006-11-06
+Description: Tribal-style three column layout.
+Author: Viktor Persson
+URL: http://templates.arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0px auto;
+	padding: 0;
+}
+
+a {color: #682;}
+
+a:hover {color:  #00FFCC;}
+
+body {
+	color: #000000;
+	font: normal 63% "Times New Roman";
+	margin: 10px auto;
+	background-color: #FFFFFF;
+}
+
+.copy
+{
+width:100%
+}
+
+
+p,ul {
+	padding-bottom: 1em;
+}
+
+ul {margin-left: 1.2em;}
+
+li {list-style: none;}
+.main li {list-style-image: url(img/li.gif);}
+
+h1 {font-size: 1.2em;}
+
+blockquote {
+	background: #FFF;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	color: #333;
+	display: block;
+	font-size: 1.0em;
+	margin-bottom: 1.2em;
+	padding: 6px 12px;
+	font-family: "Times New Roman";
+}
+blockquote p {padding: 3px 0;}
+
+h1,h2,h3 {color: #994;}
+
+/* misc */
+.clearer {clear: both;}
+.main_right .padded {padding: 6px 2px 6px 16px;}
+.main .padded {padding: 18px 24px;}
+.meta {font-size: 0.8em; color: #666;}
+.left {float: left;}
+.right {float: right;}
+
+/* structure */
+.container {
+	margin: 5px auto;
+	width: 70%;
+	border: 2px solid #000000;
+	font-family: "Times New Roman";
+}
+
+/* header */
+.header {
+	width: 100%;
+	background-color: #FFFFFF;
+	font-family: "Times New Roman";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+.logo
+{
+	background-color:#FFFFFF;
+	width:130px;
+	height:140px;
+	position: relative;
+	margin-left: 200px;
+}
+
+.logodes
+{
+	background-color:#FFFFFF;
+	width:400px;
+	height:auto;
+	margin-top: -140px;
+	margin-left: 300px;
+}
+
+.headermenu 
+{
+	height: auto;
+	font-family: "Times New Roman";
+	background: url(images/menubg11.gif) center center repeat-x;
+}
+
+/* structure */
+.top {
+	background: #222;
+	color: #DDD;
+	float: left;
+	font-family: "Times New Roman";
+	height: 50px;
+	text-align: left;
+	width: 85px;
+}
+.subnav {
+	float: left;
+	width: 160px;
+	margin-top: 0px;
+}
+.main {
+	width: 62%;
+	background-color:#FFFFFF;
+	margin-top: 0px;
+	margin-left: 165px;
+}
+.main_right {
+	float: right;
+	width: 23%;
+	margin-top: 0px;
+	background-color: #CCC;
+}
+
+/* sub-navigation */
+.subnav h1 {
+	background: #222;
+	color: #FFE;
+	font: bold 1.1em "Times New Roman";
+	line-height: 24px;
+	padding-left: 8px;
+}
+.subnav ul {margin: 0; padding: 0;}
+.subnav li {
+	border-bottom: 1px solid #6495ED;
+	list-style: none;
+}
+.subnav li a {
+	background: #6495ED;	
+	color: #111;
+	display: block;
+	padding: 8px 0 8px 12px;
+	width: 148px;
+	text-decoration: none;
+}
+.subnav li a:hover {
+	background: #6495ED;
+	color: #000;
+}
+
+/* footer */
+.footer {
+	color: #000000;
+	font-size: 0.9em;
+	
+	width: 100%;
+	text-align: center;
+}
+.footer .left,.footer .right {padding: 0 16px;}
+.footer a {color: #EEE;}
+.footer a:hover {color: #00FFCC;}
+
+/*js submenu start*/
+.horizontalcssmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.horizontalcssmenu ul li{
+position: relative;
+display: inline;
+float: left;
+
+}
+
+/*Top level menu link items style*/
+.horizontalcssmenu ul li a{
+display: block;
+width: auto; /*Width of top level menu link items*/
+padding: 2px 18px;
+border: 1px solid #00FFFF;
+border-left-width: 0;
+text-decoration: none;
+background: url(images/menubg11.gif) center center repeat-x;
+color: black;
+font: bold 13px Tahoma;
+}
+	
+/*Sub level menu*/
+.horizontalcssmenu ul li ul{
+left: 0;
+top: 0;
+border-top: 1px solid #00FFFF;
+position: absolute;
+display: block;
+visibility: hidden;
+z-index: 100;
+}
+
+/*Sub level menu list items*/
+.horizontalcssmenu ul li ul li{
+display: inline;
+float: none;
+}
+
+
+/* Sub level menu links style */
+.horizontalcssmenu ul li ul li a{
+width: 160px; /*width of sub menu levels*/
+font-weight: normal;
+padding: 2px 5px;
+background: #FFFFFF;
+border-width: 0 1px 1px 1px;
+}
+
+.horizontalcssmenu ul li a:hover{
+background: url(images/menubgover2.gif) center center repeat-x;
+}
+
+.horizontalcssmenu ul li ul li a:hover{
+	background-color: #6495ED;
+}
+
+.horizontalcssmenu .arrowdiv{
+position: absolute;
+right: 0;
+background: transparent url(images/menuarrow2.gif) no-repeat center left;
+}
+
+* html p#iepara{ /*For a paragraph (if any) that immediately follows menu, add 1em top spacing between the two in IE*/
+padding-top: 1em;
+}
+	
+/* Holly Hack for IE \*/
+* html .horizontalcssmenu ul li {
+	float: left;
+	height: auto;
+}
+* html .horizontalcssmenu ul li a { height: 1%; }
+/* End */
+
+/*default previous color:#262b38,
+
+table a, table, tbody, tfoot, tr, th, td, table caption {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	background:#FFFFFF;
+	color:#000000;
+	text-align:left;
+	font-size:12px;
+	width:90%;
+}
+
+*/
+table, table caption {
+	border-left:2px solid #000;
+	border-right:2px solid #000;
+}
+table {
+	border-top:2px solid #000;
+	border-bottom:2px solid #000;
+}
+table a {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+table a:hover {
+	text-decoration:none;
+	position:relative;
+	top:1px;
+	left:1px;
+}
+table caption {
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	font-size:20px;
+	font-weight:bold;
+}
+table, td, th {
+	padding:0px;
+}
+tbody td, tbody th, tbody tr.odd th, tbody tr.odd td {
+	border:1px solid;
+	border-color:#567 #000 #000 #567;
+}
+td, th, table caption {
+	padding:5px;
+	vertical-align:middle;
+}
+tfoot td, tfoot th, thead th {
+	border:1px solid;
+	border-color:#000 #567 #567 #000;
+	font-weight:bold;
+	white-space:nowrap;
+	font-size:14px;
+}
+.logo1
+{
+background-color:#FFFFFF;
+width:50px;
+height:50px;
+margin-left:0px;
+
+}
+.logo1des
+{
+	background-color:#FFFFFF;
+	width:100%;
+	height:60px;
+	margin-top: -50px;
+	margin-left: 50px;
+	padding-left: 10px;
+}
+.title
+{
+	background-color:#FFFFFF;
+	height:auto;
+	width:400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}

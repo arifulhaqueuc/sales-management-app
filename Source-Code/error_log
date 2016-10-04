@@ -1,0 +1,6 @@
+[22-Oct-2014 13:55:40 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/efmtradi/public_html/projects/lubna/dbconnection.php on line 2
+[22-Oct-2014 13:55:40 UTC] PHP Warning:  mysql_select_db(): Access denied for user 'root'@'localhost' (using password: NO) in /home/efmtradi/public_html/projects/lubna/dbconnection.php on line 3
+[22-Oct-2014 13:55:40 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/efmtradi/public_html/projects/lubna/dbconnection.php on line 3
+[22-Oct-2014 13:55:40 UTC] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/efmtradi/public_html/projects/lubna/checkuser.php on line 6
+[22-Oct-2014 13:55:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/efmtradi/public_html/projects/lubna/checkuser.php on line 6
+[22-Oct-2014 13:55:40 UTC] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/efmtradi/public_html/projects/lubna/checkuser.php on line 7
