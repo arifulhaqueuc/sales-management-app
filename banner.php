@@ -17,12 +17,12 @@
 	<div class="title">
 	<div class="logo1"><img src="images/imagddhdhdes.jpg" height="100" width="100"/></div>
 		<div class="logo1des style2">
-			<span class="style3">LUBNA POWER</span>		<br>
-			<span class="style4">H # 45, Rd # 9A 
+			<span class="style3">AAA POWER</span>		<br>
+			<span class="style4">H # 145, Rd # 19A 
             <br>
-            Apt-A3, Dhanmondi, Dhaka-1209.
+            Dhanmondi, Dhaka-1209.
 		    <br>
-		    Cell: 01714-161599<br>
-	    e-mail:tareqkhan02@gmail.com</span></div>
+		    Cell: 000-000-0191<br>
+	    e-mail:something@gmail.com</span></div>
 	</div>
 	</div>
